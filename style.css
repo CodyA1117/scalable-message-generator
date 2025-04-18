@@ -1,0 +1,89 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Header */
+  #header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  /* Quote Display */
+  #quoteDisplay {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    min-height: 80px;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Button */
+  #button {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  #button:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+  }
+  
+  /* Instructions */
+  #instructions {
+    font-size: 0.95rem;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 25px;
+    }
+  
+    #header {
+      font-size: 1.5rem;
+    }
+  
+    #quoteDisplay {
+      font-size: 1.1rem;
+    }
+  
+    #button {
+      width: 100%;
+    }
+  }
+  
